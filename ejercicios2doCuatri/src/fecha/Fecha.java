@@ -6,18 +6,22 @@ public class Fecha {
 	int mes;
 	int anio;
 
+	//constructor sin parametros
 	public Fecha() {
 		this.dia = 1;
 		this.mes = 1;
 		this.anio = 2000;
 	}
-
+	
+	
+//contructor con tres parametros
 	public Fecha(int dia, int mes, int anio) {
 		this.dia = dia;
 		this.mes = mes;
 		this.anio = anio;
 	}
 
+	//método toString() transforma en string un objeto
 	public String toString() {
 		return "" + this.dia + "/" + this.mes + "/" + this.anio;
 	}

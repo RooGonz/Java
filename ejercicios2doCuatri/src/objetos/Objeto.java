@@ -1,4 +1,4 @@
-package ejercicios.objetos.src.objetos;
+package objetos;
 
 import java.awt.Point;
 import java.awt.Rectangle;
