@@ -1,4 +1,4 @@
-package ejercicios;
+package ejerciciosRecursion;
 //import RecursionFuncionesAux;
 
 public class Main {

@@ -1,4 +1,4 @@
-package ejercicios;
+package ejerciciosRecursion;
 
 public class RecursionConStrings {
 //0- Definir la función auxiliar String resto(String s) que devuelva toda la cadenas menos el 

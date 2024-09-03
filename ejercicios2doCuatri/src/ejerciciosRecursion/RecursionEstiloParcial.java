@@ -1,4 +1,4 @@
-package ejercicios;
+package ejerciciosRecursion;
 
 public class RecursionEstiloParcial {
 	
