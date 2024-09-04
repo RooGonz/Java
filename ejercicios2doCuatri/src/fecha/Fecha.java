@@ -39,6 +39,7 @@ public class Fecha {
 			return false;
 	}
 	
+	//1 Devuelve la cantidad de días del mes dado, en el año dado.
 	public static int diasDelMes(int mes, int anio) {
 		if(mes == 2) {
 			if(bisiesto(anio)) {
@@ -52,4 +53,39 @@ public class Fecha {
 		}
 		return 30;
 	}
+	
+	//2 Devuelve true si la fecha es válida, y false en caso contrario.
+	public boolean esValida() {
+//		if (this.dia <= 0 || this.dia > 31) {
+//			return false;
+//		}
+//		if (this.mes <= 0 || this.mes > 12) {
+//			return false;
+		}
+		
+	}
+	
+	//3 Hace avanzar un día a la fecha.
+	public void avanzarDia() {
+		
+	}
+	
+	//4 Devuelve true si la fecha está antes que la fecha recibida como parámetro.
+	public [static?] boolean antesQue(Fecha otra) {
+		
+		
+	}
+	
+	//5 Devuelve el número del día en el año que representa la fecha (debe ser un número entre 1 y 366).
+	 public [static?] int diaDelAño() {
+		 
+		 
+	 }
+	 
+	 //6 Devuelve la cantidad de días de diferencia entre una fecha y la fecha recibida como parámetro.
+	 public [static?] int diasDeDiferenciaCon(Fecha otra) {
+		 
+		 
+	 }
 }
+
